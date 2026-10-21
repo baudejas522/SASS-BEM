@@ -1,0 +1,30 @@
+@use "var" as *;
+
+/* text mixer */
+
+@mixin text-style
+{
+    color: $text-color;
+    font-size: $text-size;
+    font-weight: $text-weight;
+    margin-bottom: $text-margin;
+}
+
+@mixin avatar-style
+{
+    width: $avatar-width;
+    height: $avatar-heigth;
+    border-radius: $border-radius;
+    margin-top: $avatar-margin;
+}
+
+@mixin phone
+{
+    @media(max-width: 768px)
+    {
+        h1
+        {
+            font-size: 20px;
+        }
+    }
+}

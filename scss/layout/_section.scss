@@ -1,0 +1,31 @@
+@use "../abstracts/var" as *;
+@use "../abstracts/mixer" as *;
+@use "../base/h1" as *;
+@use "../components/button" as *;
+.section
+{
+    padding: $section-padding;
+    display: $section-flex;
+    gap: $section-gap;
+    align-items: $section-align-center;
+    border-radius: $section-border-radius;
+    width: $secton-width;
+    box-shadow: $section-shadow;
+    @include phone
+}
+
+.avatar
+{
+    @include avatar-style
+}
+    .card
+    {
+
+        &__text
+        {
+            @include text-style
+        }
+
+    }
+    
+    

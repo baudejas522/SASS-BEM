@@ -1,0 +1,57 @@
+/* section vars */
+/* text vars */
+/* h1 vars */
+/* button vars */
+/* avatar vars */
+/* text mixer */
+h1 {
+  color: #030303;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  color: #FFF;
+  background-color: rgba(148, 7, 213, 0.866);
+}
+
+.section {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-radius: 10px;
+  width: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (max-width: 768px) {
+  .section h1 {
+    font-size: 20px;
+  }
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.card__text {
+  color: rgba(3, 3, 3, 0.6392156863);
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+/*# sourceMappingURL=main.css.map */

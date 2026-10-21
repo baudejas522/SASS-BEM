@@ -1,0 +1,8 @@
+@use "../abstracts/var" as *;
+
+h1
+{
+    color: $h1-color;
+    font-size: $h1-size;
+    font-weight: $h1-weight;
+}

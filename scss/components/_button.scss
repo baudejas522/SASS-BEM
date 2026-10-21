@@ -1,0 +1,10 @@
+@use "../abstracts/var" as *;
+
+button
+{
+    width: $button-width;
+    height: $button-height;
+    border-radius: $button-radius;
+    color: $button-text-color;
+    background-color: $button-color;
+}

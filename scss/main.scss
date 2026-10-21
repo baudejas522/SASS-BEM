@@ -1,0 +1,11 @@
+@use "abstracts/var" as *;
+@use "abstracts/mixer" as *;
+@use "layout/section" as *;
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
